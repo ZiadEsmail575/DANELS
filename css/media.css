@@ -1,0 +1,44 @@
+@media screen and (max-width:300px) {
+    .social ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social ul li{
+        width:40%;
+        margin: 20px;
+    }
+}
+@media screen and (max-width:200px){
+    #services .item {
+        width: 140px;
+    }
+    #services .services-header{
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:992px){
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 444;
+        background-color: white;
+        margin: 20px;
+        
+    }
+    nav ul li a{
+        margin-bottom: 30px;
+    }
+    .home-content p{
+        margin-top: 70px;
+    }
+    nav .navbar .navbar-nav > li a ,nav .navbar .navbar-nav > li a.active{
+        color: black;
+    }
+    nav .navbar .navbar-nav > li > a::before,nav .navbar .navbar-nav > li > a.active::before{
+        background-color: black;
+        width: 100%;
+    }
+}
